@@ -17,6 +17,7 @@ const getLibrary = (provider) => {
 };
 
 function App() {
+  console.log('hello world')
   return (
   <Web3ReactProvider getLibrary={getLibrary}>
     <div className="App">
